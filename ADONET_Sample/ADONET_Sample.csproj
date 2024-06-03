@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ASPNET_Sample.Sample01</StartupObject>
+    <StartupObject>ASPNET_Sample.Sample16</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

@@ -10,14 +10,14 @@ SQL Server Management StudioやVisual StudioのTransact-SQLエディターなど
 ## SQL Serverデータベース
 このサンプルプログラムで使用するSQL Serverデータベースの情報は以下の通りです。
 プログラムが動作する環境と同じホスト（localhost）でSQL Serverが動作していて、そのSQL Serverに「ADONET」というデータベースが存在していることを確認してください。
-また、その「ADONET」データベースに、ログイン名「sa」でアクセスできること、及びそのログイン名「sa」のパスワードが「himitu」となっていることを確認してください。
+また、その「ADONET」データベースに、ログイン名「sa」でアクセスできること、及びそのログイン名「sa」のパスワードが「P@ssword」となっていることを確認してください。
 
 |項目|値|
 |---|---|
 |SQL Serverホスト名|localhost|
 |使用するデータベース|ADONET|
 |ログイン名|sa|
-|パスワード|himitu|
+|パスワード|P@ssword|
 
 ［MyTable］テーブル
 

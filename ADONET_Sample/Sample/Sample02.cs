@@ -22,12 +22,12 @@ namespace ASPNET_Sample
             //  接続先サーバー名：localhost
             //  初期接続先データベース名：ADONET
             //  ログイン名：sa
-            //  パスワード：himitu
+            //  パスワード：P@ssword
             SqlConnectionStringBuilder connectionStringBuilder = new SqlConnectionStringBuilder();
             connectionStringBuilder.DataSource = "localhost";
             connectionStringBuilder.InitialCatalog = "ADONET";
             connectionStringBuilder.UserID = "sa";
-            connectionStringBuilder.Password = "himitu";
+            connectionStringBuilder.Password = "P@ssword";
             string connectionString = connectionStringBuilder.ConnectionString;
             Console.WriteLine("SQL Server接続文字列 ⇒ " + connectionString);
 

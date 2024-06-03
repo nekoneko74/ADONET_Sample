@@ -23,7 +23,7 @@ namespace ASPNET_Sample
             connectionStringBuilder.DataSource = "localhost";
             connectionStringBuilder.InitialCatalog = "ADONET";
             connectionStringBuilder.UserID = "sa";
-            connectionStringBuilder.Password = "himitu";
+            connectionStringBuilder.Password = "P@ssword";
             string connectionString = connectionStringBuilder.ConnectionString;
 
             SqlConnection sqlConnection = new SqlConnection(connectionString);

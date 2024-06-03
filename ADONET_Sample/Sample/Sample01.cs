@@ -21,8 +21,8 @@ namespace ASPNET_Sample
             //  接続先サーバー名：localhost
             //  初期接続先データベース名：ADONET
             //  ログイン名：sa
-            //  パスワード：himitu
-            string connectionString = "Data Source=localhost;Initial Catalog=ADONET;User ID=sa;Password=himitu";
+            //  パスワード：P@ssword
+            string connectionString = "Data Source=localhost;Initial Catalog=ADONET;User ID=sa;Password=P@ssword";
             Console.WriteLine("SQL Server接続文字列 ⇒ " + connectionString);
 
             // 接続文字列を使用してSQL Serverに接続する
