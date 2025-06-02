@@ -61,10 +61,6 @@ namespace ASPNET_Sample
 
             // SQL Serverへの接続を閉じる
             sqlConnection.Close();
-
-            // 何かキーが入力されるまで待機する
-            Console.WriteLine("何かキーを押すと終了します");
-            Console.ReadKey();
         }
     }
 }

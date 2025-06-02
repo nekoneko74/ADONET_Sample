@@ -88,10 +88,6 @@ namespace ASPNET_Sample
                     Console.WriteLine("例外が発生したためトランザクションをロールバックしました：" + ex.Message);
                 }
             }
-
-            // 何かキーが入力されるまで待機する
-            Console.WriteLine("何かキーを押すと終了します");
-            Console.ReadKey();
         }
     }
 }

@@ -60,7 +60,7 @@ namespace ASPNET_Sample
                     myTableInsertRecord.DecimalData = new decimal(9.99);
                     myTableInsertRecord.StringData = "九つ目";
                     myTableInsertRecord.BoolData = false;
-                    if (0 <= myTableDao.Insert(myTableInsertRecord))
+                    if (0 < myTableDao.Insert(myTableInsertRecord))
                     {
                         Console.WriteLine("MyTableテーブルに1レコードを挿入しました");
                     }
@@ -76,7 +76,7 @@ namespace ASPNET_Sample
                     myTableRecord.DecimalData = new decimal(2000.1234);
                     myTableRecord.StringData = "書き換え後";
                     myTableRecord.BoolData = null;
-                    if (0 <= myTableDao.Update(myTableRecord, 2))
+                    if (0 < myTableDao.Update(myTableRecord, 2))
                     {
                         Console.WriteLine("MyTableテーブルのレコードを更新しました");
                     }
@@ -87,7 +87,7 @@ namespace ASPNET_Sample
 
                     // MyTableテーブルから1レコードを削除する
                     Console.WriteLine("MyTableテーブルの1レコードを削除する");
-                    if (0 <= myTableDao.Delete(4))
+                    if (0 < myTableDao.Delete(4))
                     {
                         Console.WriteLine("MyTableテーブルのレコードを削除しました");
                     }
@@ -108,10 +108,6 @@ namespace ASPNET_Sample
                     Console.WriteLine("例外が発生しました：" + ex.Message);
                 }
             }
-
-            // 何かキーが入力されるまで待機する
-            Console.WriteLine("何かキーを押すと終了します");
-            Console.ReadKey();
         }
 
         /// <summary>

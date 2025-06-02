@@ -13,12 +13,10 @@ namespace ASPNET_Sample
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-
-
-
-            // 何かキーが入力されるまで待機する
-            Console.WriteLine("何かキーを押すと終了します");
-            Console.ReadKey();
+            //［非接続型］
+            // SqlCommandBuilderを使用してデータベーステーブルにレコードを挿入する（サンプル ⇒ Sample12）
+            // SqlCommandBuilderを使用してデータベーステーブルのレコードを更新する（サンプル ⇒ Sample12）
+            // SqlCommandBuilderを使用してデータベーステーブルのレコードを削除する（サンプル ⇒ Sample12）
         }
     }
 }

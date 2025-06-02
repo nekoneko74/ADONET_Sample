@@ -3,7 +3,7 @@
 namespace ASPNET_Sample
 {
     /// <summary>
-    /// Exercise05：データベーステーブルのデータを削除する
+    /// Exercise05：データベーステーブルからデータを取得する（非接続型）
     /// </summary>
     internal class Exercise05
     {
@@ -13,12 +13,9 @@ namespace ASPNET_Sample
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-
-
-
-            // 何かキーが入力されるまで待機する
-            Console.WriteLine("何かキーを押すと終了します");
-            Console.ReadKey();
+            //［非接続型］
+            // データベーステーブルから複数のレコードを参照する（サンプル ⇒ Sample09）
+            // データベーステーブルから指定された条件に合致するレコードのみを参照する（サンプル ⇒ Sample10）
         }
     }
 }

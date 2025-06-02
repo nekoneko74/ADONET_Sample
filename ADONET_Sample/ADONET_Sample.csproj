@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ASPNET_Sample.Exercise01</StartupObject>
+    <StartupObject>ASPNET_Sample.Sample01</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,11 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercise09.cs" />
-    <Compile Include="Exercise08.cs" />
     <Compile Include="Exercise07.cs" />
+    <Compile Include="Exercise10.cs" />
+    <Compile Include="Exercise09.cs" />
     <Compile Include="Exercise06.cs" />
     <Compile Include="Exercise05.cs" />
+    <Compile Include="Exercise08.cs" />
     <Compile Include="Exercise04.cs" />
     <Compile Include="Exercise03.cs" />
     <Compile Include="Exercise02.cs" />

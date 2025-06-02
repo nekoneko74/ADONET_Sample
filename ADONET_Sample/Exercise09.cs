@@ -3,7 +3,7 @@
 namespace ASPNET_Sample
 {
     /// <summary>
-    /// Exercise09：DAO／DTOパターン
+    /// Exercise09：トランザクション処理
     /// </summary>
     internal class Exercise09
     {
@@ -13,12 +13,7 @@ namespace ASPNET_Sample
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-
-
-
-            // 何かキーが入力されるまで待機する
-            Console.WriteLine("何かキーを押すと終了します");
-            Console.ReadKey();
+            // SqlTransactionオブジェクトを使用してトランザクションを管理する（Sample15）
         }
     }
 }

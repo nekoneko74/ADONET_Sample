@@ -3,9 +3,9 @@
 namespace ASPNET_Sample
 {
     /// <summary>
-    /// Exercise08：例外処理とリソースの後処理
+    /// Exercise10：DAO／DTOパターン
     /// </summary>
-    internal class Exercise08
+    internal class Exercise10
     {
         /// <summary>
         /// メインメソッド（プログラムのエントリポイント）
@@ -13,8 +13,8 @@ namespace ASPNET_Sample
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            // 例外処理を使用してデータベースで発生したエラーを検知する（Sample13）
-            // リソースの後処理（usingステートメント）を行なう（Sample14）
+            // DAO／DTOパターンでのデータの取得／挿入／更新／削除
+            // サンプルプログラムは Sample\DaoDto フォルダに格納されている3ファイルです
         }
     }
 }

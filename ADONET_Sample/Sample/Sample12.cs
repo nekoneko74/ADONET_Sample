@@ -72,10 +72,6 @@ namespace ASPNET_Sample
             //******************************************************************
             // 非接続型の更新処理を行う
             dataAdapter.Update(dataTable);
-
-            // 何かキーが入力されるまで待機する
-            Console.WriteLine("何かキーを押すと終了します");
-            Console.ReadKey();
         }
     }
 }

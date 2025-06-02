@@ -122,10 +122,6 @@ namespace ASPNET_Sample
             // 結果セット読み取りオブジェクトおよびSQL Serverへの接続を閉じる
             reader.Close();
             sqlConnection.Close();
-
-            // 何かキーが入力されるまで待機する
-            Console.WriteLine("何かキーを押すと終了します");
-            Console.ReadKey();
         }
     }
 }
